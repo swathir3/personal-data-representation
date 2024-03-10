@@ -1,0 +1,106 @@
+body {
+    font-family: 'Roboto', sans-serif;
+    line-height: 1.6;
+    margin: 0;
+    padding: 0;
+    background-color: #e7ded4; /* Light warm gray background */
+    color: #333; /* Dark gray text */
+}
+
+header {
+    background-color: #333;
+    color: #fff;
+    padding: 1rem;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.header-title {
+    font-size: 26px;
+    font-weight: semi-bold;
+}
+
+footer {
+    background-color: #333;
+    color: #fff;
+    text-align: center;
+    padding: 1rem;
+}
+
+main {
+    padding: 20px;
+}
+
+.section-title {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.final-design-container, .collection {
+    text-align: center;
+}
+
+h2 {
+    text-align: center;
+}
+
+p {
+    text-align: center;
+    margin-left: 80px;
+    margin-right: 80px;
+
+}
+
+img.high-quality {
+    max-width: 640px;
+    height: auto;
+    margin: 0 auto;
+}
+
+.process-images img {
+    width: 320px;
+    height: auto;
+    float: left;
+    margin-right: 2%;
+}
+
+.process-images img:last-child {
+    margin-right: 0;
+}
+
+.iteration-images img {
+    width: 320px;
+    height: auto;
+    float: left;
+    margin-right: 2%;
+}
+
+.iteration-images img:last-child {
+    margin-right: 0;
+}
+
+/* Center the container elements */
+.process-images, .iteration-images {
+    display: flex;
+    justify-content: center; /* Centers the images horizontally */
+    flex-wrap: wrap; /* Allows items to wrap as needed */
+    gap: 20px; /* Adjust the gap between images as needed */
+}
+
+/* Center text under the images */
+#design-process p, #iteration p {
+    text-align: center;
+}
+
+/* Adjust final design image and description */
+.final-design-container {
+    display: flex;
+    justify-content: center; /* Center the image */
+    flex-wrap: wrap; /* Allow wrapping for responsiveness */
+}
+
+section {
+    margin-bottom: 20px;
+    clear: both;
+}
